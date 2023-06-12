@@ -1,9 +1,10 @@
-# drf-todo-list
-Todo List API with django rest framework
+# Todo List API with django rest framework
 
 ### Created with django rest framework 
 
-It's a To-do List API created with django-rest-frammework. Developed in a Mac-OS enviroment . SQlite database
+It's a To-do List API created with django-rest-frammework. Developed in a Mac-OS enviroment . SQlite database 
+
+Let me know if you need a docker image
 
 ## Postman Collection with example of payload request and responses 
 
