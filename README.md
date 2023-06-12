@@ -5,6 +5,10 @@ Todo List API with django rest framework
 
 It's a To-do List API created with django-rest-frammework. Developed in a Mac-OS enviroment . SQlite database
 
+## Postman Collection with example of payload request and responses 
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/20481461-3ad3dea2-a771-4242-9fc4-add7738b70bd?action=collection%2Ffork&collection-url=entityId%3D20481461-3ad3dea2-a771-4242-9fc4-add7738b70bd%26entityType%3Dcollection%26workspaceId%3Decf9a3bf-25b8-4294-b87d-48ef85b88edd)
+
 ## End points
 
 * `POST /api/token/`
