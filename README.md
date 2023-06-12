@@ -25,7 +25,7 @@ It's a To-do List API created with django-rest-frammework. Developed in a Mac-OS
 
 ## Get the code 
 
-- Clone the repo `git clone {repo-link}`
+- Clone the repo `git clone https://github.com/DavidFaf/drf-todo-list.git`
 - Create virtualenv (advisable)
       - cd into preferred directory then `python -m venv {enviroment name}`
 - Intall requirements `pip install -r requirements.txt`
