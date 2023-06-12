@@ -10,6 +10,7 @@ from .models import TodoList, Folder
 from .serializers import TodoListSerializer, FolderSerializer
 from rest_framework import generics
 from api.mixins import (IsStaffEditorMixin, UserQuerySetMixin)
+from django.contrib.auth.models import User
 logger = logging.getLogger(__name__)
 
 class TodoListDetailView(IsStaffEditorMixin, generics.RetrieveAPIView):
@@ -89,3 +90,4 @@ class FolderDeleteView(generics.DestroyAPIView):
         except Exception as e:
                 error_message = str(e)
                 return Response({"message": "An error has occurred", "error": error_message}, status=400)
+

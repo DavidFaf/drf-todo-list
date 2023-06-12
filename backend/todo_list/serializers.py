@@ -1,6 +1,8 @@
 from rest_framework import serializers
 from drf_writable_nested import WritableNestedModelSerializer
 from .models import TodoList, ListItem, Folder
+from django.contrib.auth.models import User
+
 
 
 class ListItemsSerializer(serializers.ModelSerializer):
@@ -50,6 +52,7 @@ class TodoListSerializer(WritableNestedModelSerializer, serializers.ModelSeriali
             'path',
             'url'
         ]
+
 
     # def create(self, validated_data):
     #     items_data = validated_data.pop('items')
